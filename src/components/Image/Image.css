@@ -1,0 +1,21 @@
+.image {
+  height: 55vh;
+  width: 35vw;
+  border-radius: 50px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.image-description {
+  font-size: 4vw;
+  text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.4);
+  font-family: "Grape Nuts", cursive;
+}
+
+@media screen and (orientation: portrait) {
+  .image {
+    height: 55vh;
+    width: 85vw;
+  }
+  .image-description {
+    font-size: 12vw;
+  }
+}

@@ -1,0 +1,13 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35vw;
+  font-size: 4vw;
+}
+@media screen and (orientation: portrait) {
+  .counter {
+    font-size: 10vw;
+    width: 90%;
+  }
+}
